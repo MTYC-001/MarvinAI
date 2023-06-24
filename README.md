@@ -14,3 +14,6 @@ frontend
 backend 
 1. venv\Scripts\activate
 2. uvicorn main:app
+
+
+React + Vite + Tailwind css + TypeScript
