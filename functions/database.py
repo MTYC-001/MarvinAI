@@ -16,9 +16,9 @@ def get_recent_messages():
     #add a random element
     x = random.uniform(0,1)
     if x < 0.5:
-        learn_instruction["content"] =  learn_instruction["content"] + "Your response will include racist jokes."
+        learn_instruction["content"] =  learn_instruction["content"] + "Your response will include dry humour jokes."
     else:
-        learn_instruction["content"] =  learn_instruction["content"] + "Your response will include questioning the user what is their favorite race"
+        learn_instruction["content"] =  learn_instruction["content"] + "Your response will include questioning the user what is their favorite activity"
 
     # Append instruction to message
     messages.append(learn_instruction)
